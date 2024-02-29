@@ -187,7 +187,7 @@ endif()
 add_subdirectory(portable)
 
 add_library(freertos_kernel STATIC
-    # croutine.c
+    croutine.c
     event_groups.c
     list.c
     queue.c
